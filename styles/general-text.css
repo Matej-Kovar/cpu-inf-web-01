@@ -1,0 +1,47 @@
+article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: min-content;
+    height: min-content;
+}
+#label{
+    width: 90vw;
+}
+.main-label{
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    font-size: 100px;
+    width: 95vw;
+}
+p{
+    text-align: center;
+    width: 35vw;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    margin:20px;
+}
+h2{
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+    width: 34vw;
+}
+h3{
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+}
+h4{
+    font-family: "Major Mono Display", monospace;
+    text-align: center;
+}
+li{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    margin:5px;
+    list-style: url(../images/cpu.svg);
+}

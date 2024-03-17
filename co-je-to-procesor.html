@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co je to procesor?</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/general-text.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>
+                MENU
+            </h2>
+            <menu>
+                <li id="procesor"><a href="./co-je-to-procesor.html">CO JE TO PROCESOSR<div class="blured"></div></a></li>
+                <li id="intel"><a href="./intel.html">INTEL<div class="blured"></div></a></li>
+                <li id="amd"><a href="./amd.html">AMD<div class="blured"></div></a></li>
+            </menu>
+        </nav>
+        <a href="./index.html"><img src="./images/image.png" alt="cpu-icon"></a>
+    </header>
+    <article> 
+<section id="label">
+    <h1 class="main-label">
+        PROCESOR - CO TO VLASTNĚ JE?
+    </h1>           
+    <p>
+        Procesor neboli Centrální procesorová jednotka (CPU) je součást počítače, pomocí které počítač vyhodnocuje vstupy a podává výstupy. Je to základní součástka, bez které by se počítač neobešel. Hlavní výrobci počítačových procesorů jsou firmy Intel a AMD. V minulosti byl procesor složen z více součástek, kolem roku 1970 byl spojen do jednoho integrovaného obvodu. Tento obvod se označuje jako mikroprocesor. 
+    </p>
+</section>
+<section>
+    <h2>
+        1.1	Vlastnosti
+    </h2>
+    <h3>
+        1.1.1	Strojový kód
+    </h3>
+    <p>
+    Strojový kód je nejnižší programovací jazyk, ve kterém procesor operuje. Vyšší programovací jazyky (jednoduší pro uživatele, ale složitější pro procesor), se jako základ procesoru nepoužívají, protože strojový kód je obecnější. Všechny programy se poté překládají do tohoto strojového kódu. Strojových kódů existuje několik, každý na speciální využití procesorů. 
+    </p>
+    <h3>
+        1.1.2	Jádra
+    </h3>
+    <p>
+    Skoro každý počítačový procesor je více jádrový. To znamená, že uvnitř sebe má další CPU, které sdružuje. Tyto CPU nazýváme jádra. Tyto jádra mohou pracovat nezávisle na sobě, což umožňuje, aby se vykonávalo více operací najednou (Multitasking). Čím více jader, tím více programů může být spuštěno.
+    </p>
+    <h4>
+        1.1.2.1	E-jádra a P-jádra
+    </h4>
+    <p>
+    Od 12 generace procesorů architektura čipů od společnosti Intel zahrnuje E a P jádra. P jádra jsou standartní jádra procesoru, zaměřená na výkon a složité operace. E jádra jsou vysoce energeticky efektivní a zaměřují se na procesy běžící v pozadí, které nepotřebují tolik výkonu. To znamená lepší výkon, delší život baterie a nižší cenu.
+    </p>
+    <h3>
+        1.1.3	Vlákna
+    </h3>
+    <p>
+    Jedno vlákno je jeden proces, probíhající v jedno programu. Každý program má jen jedno vlákno, takže vykonává jen jeden proces. Některé systémy a programy ale umožňují multithreading, (více vláken na jeden program, čímž umožňuje rychlejší fungování programu. Čím více vláken, tím rychlejší programy.
+    </p>
+    <h3>
+        1.1.4	Thermal Design Power
+    </h3>
+    <p>
+    TDP je nejvyšší tepelný výkon procesoru. Udává, jak velké množství tepla potřebuje chladič odvést od procesoru, aby ho uchladil. Musí být specifikována pro každou součástku. Většinou vyšší TDP mají výkonnější procesory, které je ale potřeba více chladit. TDP se měří ve wattech.
+    </p>
+</section>
+<section>
+    <h2>
+        1.2	Architektury CPU
+    </h2>
+    <p>
+    Architektura CPU je složení vnitřních částí CPU. Vždy obsahuje ALU, která provádí aritmetické operace a CU, které rozhoduje kam které informace putují a dekóduje instrukce pro ALU.
+    </p>
+    <h3>
+        1.2.1	Architektura Core
+    </h3>
+    <p>
+        Architektura Core je využívána společností Intel od roku 2006, kdy byla stvořena. Vylepšovala už v té době zastaralou architekturu Pentium-M. Hlavním vylepšením je zefektivnění CPU, takže není potřeba tolik energie k provozu.
+    </p>
+    <h3>
+        1.2.2	Architektura Zen
+    </h3>
+    <p>
+    Architektura Zen byla vyvíjena společností AMD. Vývoj byl dokončen v roce 2017. Tato architektura je využívána v AMD procesorech Ryzen, Ryzen Threadripper a Epyc.
+    </p>
+</section>
+
+
+<section>
+<h2>
+    1.3	Další pojmy
+</h2>
+<h3>
+    1.3.1 Bottleneck
+</h3>
+<p>
+    Bottleneck je výraz používám pro tu část počítače, která omezuje výkon ostatních částí. Může to být jakákoli součástka od paměti RAM, přes mateřskou desku, až k procesoru a grafické kartě. Právě rovnováha mezi grafickou kartou a procesorem je nejdůležitější, protože nejvíce ovlivňují výkon PC. 
+    Důležité pro balancování sestavy je vědět, jaké rozlišení bude používáno na monitoru. To velice ovlivní výběr grafické karty a adekvátního procesoru. Množná ještě více rozhodující je, na co bude PC používán. Pokud bude například využíván hlavně k editaci videa, měl by se budoucí majitel zaměřit na RAM a CPU, kdežto pokud je počítač na modelování 3D, bude to hlavně grafická karta.
+</p>
+<h3>
+    1.3.2 Overclocking
+</h3>
+<p>
+    Overclocking, nebo také přetaktování je přenastavení rychlosti procesoru na vyšší tím, že do procesoru se pustí více energie. Pro Overclocking je třeba mít odemčený procesor a mateřskou desku, která ho podporuje. Pokud je Overclocking manuálně zapnut, zvýší se sice výkon, ale na procesor propadne záruka, protože výrobce negarantuje, že se při overclockingu procesor nepoškodí.
+</p>
+<h3>
+    1.3.3	Integrovaná grafická karta
+</h3>
+<p>
+    Integrovaná grafická karta je součást procesoru, kterou ale mít nemusí. Výhodou je hlavně cena, protože na rozdíl od diskrétní (standartní) grafické karty, není moc výkonná. Pokud na počítači nebudou vykonávány činnosti náročné na grafickou kartu, je integrované GPU tou správnou volbou.
+</p>
+</section>
+</article>  
+<footer>
+
+</footer>
+</body>
+</html>

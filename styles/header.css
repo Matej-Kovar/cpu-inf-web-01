@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-image: url(../images/headrer-background.jpeg);
+    background-position: center;
+    background-size:cover;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    width: calc(70vw - 10px);
+    height: 60px;
+    align-items: center;
+}
+nav h2{
+    font-family: "Major Mono Display", monospace;
+    font-weight: 500;
+    color: white;
+    font-size: xx-large;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+menu{
+    display: flex;
+    width: calc(40vw - 10px);
+    height: 60px;
+    list-style:none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+menu a{
+    color: white;
+    text-decoration: none;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 500;
+    font-size: x-large;
+}
+menu li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+}
+.blured{
+    height: 100%;
+    width: 100%;
+}
+@keyframes hover-a {
+    from { font-size: x-large;}
+    to { font-size: xx-large;}
+}
+@keyframes hover-li {
+    from {backdrop-filter: none; border-color: transparent;}
+    to {backdrop-filter: blur(8px);border-color: rgba(255, 255, 255, 0.1);}
+}
+menu li:hover{
+    animation-name: hover-li;
+    animation-duration: 250ms;
+    backdrop-filter: blur(8px);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+menu li:hover a{
+    animation-name: hover-a;
+    animation-duration: 250ms;
+    font-size: xx-large;
+}
+
+header h1{
+    font-family: "Major Mono Display", monospace;
+    font-weight: 500;
+    color: white;
+    font-size: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+header img{
+    width: 75px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+#procesor{
+    width: 25vw;
+}
+#amd{
+    width: 7.5vw;
+}
+#intel{
+    width: 7.5vw;
+}
